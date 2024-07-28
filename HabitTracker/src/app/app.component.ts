@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Component, NgModule } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-root',
@@ -8,6 +10,7 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
   title = 'HabitTracker';
 }
